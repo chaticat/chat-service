@@ -1,10 +1,10 @@
-package com.chaticat.chatmanagementservice;
+package com.chaticat.chatservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ChatManagementServiceApplicationTests {
+class ChatServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

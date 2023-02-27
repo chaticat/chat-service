@@ -1,13 +1,13 @@
-package com.chaticat.chatmanagementservice;
+package com.chaticat.chatservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ChatManagementServiceApplication {
+public class ChatServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ChatManagementServiceApplication.class, args);
+		SpringApplication.run(ChatServiceApplication.class, args);
 	}
 
 }

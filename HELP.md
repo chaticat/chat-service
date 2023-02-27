@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.chaticat.chat-management-service' is invalid and this project uses 'com.chaticat.chatmanagementservice' instead.
+* The original package name 'com.chaticat.chat-service' is invalid and this project uses 'com.chaticat.chatservice' instead.
 
 # Getting Started
 
