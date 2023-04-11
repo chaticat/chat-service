@@ -12,10 +12,10 @@ public class Security {
 
     @Bean
     public SecurityFilterChain apiFilterChain(HttpSecurity http) throws Exception {
-        http
+        return http
                 .securityMatcher("/**")
-                .authorizeHttpRequests(authorize -> authorize.anyRequest().permitAll());
-        return http.build();
+                .authorizeHttpRequests(authorize -> authorize.anyRequest().permitAll())
+                .build();
     }
 
 }
